@@ -1,5 +1,6 @@
 ### SAM-79 ログアウト時のバグ修正
-```javascript
+
+    ```javascript
 const handleLogout = async () => {
     try {
       await axios.post(
